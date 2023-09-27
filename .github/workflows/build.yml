@@ -44,4 +44,4 @@ jobs:
       
       - name: print logs
         if: always()
-        run : docker compose logs1     
+        run : docker compose logs     
