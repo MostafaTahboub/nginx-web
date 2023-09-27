@@ -3,7 +3,7 @@ services:
   web:
     image: mostafatahboub/my-static-website:latest
     ports:
-      - "8080:80"
+      - "80:80"
     environment:
       - NGINX_ENV=production
     networks:
